@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link type = "text/css" rel = "stylesheet" href = "styles.css">
 	<title>Scott Macrorie</title>
 </head>
 <body>
 <header>
+	<div class = "top">
 	<h1>My family...</h1>
 
-	<p>I'm married with two <a href = "#kids">kids.</a>
-	My family enjoys <a href = "#camping">camping</a>, <a href = "#canoeing">canoeing</a> <a href = "#hiking">&amp hiking.</a>
+	<p id = "firstline">I'm married with two <a href = "#kids">kids.</a>
+	My family enjoys camping, <a href = "#canoeing">canoeing</a> &amp hiking.
 	</p>
+	</div>
 
 
-	<h1>and my hobbies...</h1>
+	<h1>my hobbies...</h1>
 	<ul>
 	<li><a href = "#horseback riding">Horseback Riding</a></li>
 	<li><a href = "#hunting">Hunting</a></li>
@@ -25,44 +28,50 @@
 	<li><a href = "#CBOT">Chicago Board of Trade</a></li>
 	</ul>
 
-	<h1>and a not so memorable job in a memorable location...</h1>
+	<h1>and a <em>not</em> so memorable job in a memorable location...</h1>
 	<ul>
 	<li><a href = "#Aspen">Aspen, CO downtown</a></li>	
 	</ul>
 </header>
 <main>
-	<article>
+	<article class = "pictures">
 		<a name = "horseback riding"></a>
-		<h1>Missouri Foxtrotter</h1>
-		<p>This is the breed of horse I've always owned.  The breed originated in the Ozark Mountains of southern Missouri. 
+		<h1 class = "pictureTitles">Missouri Foxtrotter</h1>
+		<p>This is the breed of horse I own.  The breed originated in the Ozark Mountains of southern Missouri. 
 		They are known for their fast, smooth 4-beat gait over rough terrain.</p>
 		<img src ="./images/Missouri-Fox-Trotter-Photos.jpg"/>
 
 		<a name = "hunting"></a>
-		<h1>Hunting</h1>
-		<p>I enjoy hunting deer in Kansas and Missouri and elk in Colorado</p>
+		<h1 class = "pictureTitles">Hunting</h1>
+		<p>I enjoy hunting deer in Kansas and Missouri and elk by horseback in Colorado</p>
 		<img src = "./images/horsepacking.jpg">
 
 		<a name = "Aspen"></a>
-		<h1>Aspen, CO downtown</h1>
+		<h1 class = "pictureTitles">Aspen, CO downtown</h1>
 		<p>I worked as a dishwasher in an Italian restaurant during the evenings and skied during the day</p>
 		<img src = "./images/Ajax-Mountain1.jpg">
 
 		<a name = "KCBOT"></a>
-		<h1>Kansas City Board of Trade</h1>
+		<h1 class = "pictureTitles">Kansas City Board of Trade</h1>
 		<p>I started my trading career here as wheat option pit reporter, then as a wheat options trader</p>
 		<img src = "./images/Kc-board.jpg">
 
 		<a name = "CBOT"></a>
-		<h1>Chicago Board of Trade</h1>
+		<h1 class = "pictureTitles">Chicago Board of Trade</h1>
 		<p>Then I traded soybean options in the pit at the Chicago Board of Trade</p>
 		<img src = "./images/CBOTpit.jpg">
 
+		<div class = "personalpics">
 		<a name = "canoeing"></a>
-		<img src="./images/familycanoeing.jpg" style="image-orientation: 90deg">
-
-		<a name = "kids"></a>	
-		<img src = "./images/kids.jpg" style = "image-orientation:90deg" >
+		<h1>Wife and kids at a local lake</h1>		
+		<img id = "personalpics" src="./images/familycanoeing.jpg" style="image-orientation: 90deg">
+		</div>
+		
+		<div class = "personalpics">
+		<a name = "kids"></a>
+		<h1>Kids at a creek in Colorado</h1>	
+		<img id = "personalpics" src = "./images/kids.jpg" style = "image-orientation:90deg" >
+		</div>
 	</article>
 </main>
 <footer>

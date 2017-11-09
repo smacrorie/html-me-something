@@ -1,0 +1,29 @@
+
+
+#firstline{
+	
+}
+
+html{
+	margin: 15px;
+	background-color: #deb887;
+}
+
+.pictures{
+	text-align: center;	
+}
+
+img{
+
+	height:400px;
+	width:800px;
+}
+
+#personalpics{
+	height: 1000px;
+	width: 1200px;
+}
+
+article{
+	padding-top: 50px;
+}
